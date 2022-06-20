@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Entrada de datos
-data = pd.read_csv("Puente_PiedraM.hv", 
+data = pd.read_csv("Ventanilla_ColegioM.hv", 
                    skiprows = 9, 
                    names = ["Frequency", "Average", "Min", "Max"],
                    sep = "\s+")
@@ -31,7 +31,7 @@ fig.add_trace(go.Scatter(
 fig.add_trace(go.Scatter(
     x=x, y=y,
     line_color='rgb(0,100,80)',
-    name = "Puente Piedra<br>(Municipalidad)" 
+    name = "Ventanilla<br>(Colegio Antonia<br>Moreno de Cáceres)" 
 ))
 
 fig.update_traces(mode='lines')
