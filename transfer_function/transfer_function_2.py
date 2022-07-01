@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 # Datos de entrada
 h_1, h_2 = 4.5/100, 2.5/100 
 Vs_1, Vs_2 = 435, 700
+# Vs_1, Vs_2 = 300, 700
 rho_1, rho_2 = 1.65, 1.8
 H = 25
 freq_range = 250 
